@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade - 3</title>
+</head>
+
+<body>
+
+    <nav class="nav-bar">
+        <a href="/">+PraTI - Atv - 3</a>
+
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listas.html">Listas</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <div id="form-container">
+        <h2>Formulario de feedback:</h2>
+        <form>
+            <div>
+                <label>Nome:</label>
+                <input type="text" placeholder="Ex: Joao Silva">
+            </div>
+            <div>
+                <label>E-mail:</label>
+                <input type="email" placeholder="Ex: joaosilva@email.com">
+            </div>
+            <div>
+                <div>
+                    <label>Pais:</label>
+                    <input type="text" placeholder="Ex: Brazil">
+                </div>
+                <div>
+                    <label>Estado:</label>
+                    <input type="Text" placeholder="Ex: Pernambuco">
+                </div>
+                <div>
+                    <label>Cidade:</label>
+                    <input type="text" placeholder="Ex: Recife">
+                </div>
+                <div>
+                    <label>Rua:</label>
+                    <input type="text" placeholder="Ex: Rua Frasisco Simão Figueira">
+                </div>
+                <div>
+                    <label>Complemento:</label>
+                    <input type="text" placeholder="Ex: Apt.2">
+                </div>
+                <div>
+                    <label>Numero:</label>
+                    <input type="number" placeholder="Ex: 456">
+                </div>
+                <div>
+                    <label>Cep:</label>
+                    <input type="number" placeholder="Ex: 55234-565">
+                </div>
+            </div>
+            <div>
+                <label>Tipo do feedback:</label>
+                <div>
+                    <label for="positive">
+                        <input type="radio" value="positive" name="feedback"> Positivo
+                    </label>
+                    <label for="negative">
+                        <input type="radio" value="negative" name="feedback"> Negativo
+                    </label>
+                </div>
+            </div>
+            <div>
+                <label>Feedback:</label>
+                <textarea name="feedback" placeholder="Digite seu feedback aqui! " rows="10" cols="45"></textarea>
+            </div>
+        </form>
+        <button id="submit" type="submit">Enviar</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Eliezer Miguel. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
